@@ -42,7 +42,7 @@ async def save_page_as_image(page, image_path):
 
 def select_file():
     root = Tk()
-    root.withdraw()  # Tkinter 창을 화면에 표시하지 않는다.
+    root.withdraw()  # Tkinter 창 안뜨게
 
     pdf_file_path = filedialog.askopenfilename(
         title="Select a PDF File",

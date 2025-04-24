@@ -30,9 +30,9 @@ async def extract_text_from_pdf(pdf_path, output_txt_path):
         print(f"Error during PDF processing: {e}")
 
 def select_file():
-    # Tkinter의 root 창을 숨기고 파일 선택 대화 상자를 띄운다.
+    # Tkinter의 root 창을 숨기고 파일 선택 대화 상자뜨게
     root = Tk()
-    root.withdraw()  # Tkinter 창을 화면에 표시하지 않는다.
+    root.withdraw()  # Tkinter 창을 안뜨게 하는거
 
     pdf_file_path = filedialog.askopenfilename(
         title="Select a PDF File",
@@ -46,5 +46,5 @@ def select_file():
     else:
         print("No file selected.")
 
-# 파일 선택 및 텍스트 추출 실행
+# 파일 선택 및 텍스트 추출
 select_file()
