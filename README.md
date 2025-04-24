@@ -2,6 +2,9 @@
 
 개인pdf 파일이 용량이 커서 구글 드러이브로 안돼서 해보는 프로그램
 
+main.py --only text
+image.py --이미지도 가능한 버전
+
 선행작업
 라이브러리를 쓰기에
 pip install pytesseract pdfplumber Pillow
