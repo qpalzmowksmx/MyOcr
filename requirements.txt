@@ -6,7 +6,9 @@ macholib==1.16.3
 packaging==25.0
 pdfminer.six==20250327
 pdfplumber==0.11.6
-pillow==11.2.1
+# pillow==11.2.1
+# 보안문제로 업데이트 필요
+pillow==11.3.0
 pycparser==2.22
 pyinstaller==6.13.0
 pyinstaller-hooks-contrib==2025.3
